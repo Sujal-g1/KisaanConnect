@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+}
+.logo img{
+    width: 10vw;
+    height:auto;
+    padding: 20px;
+}
+.logo h2{
+    color: green;
+    padding-left:20px;
+    font-family:Winky Sans;
+}
+.logo span{
+    color: blue;
+}
+.header{
+    height:40vh;
+    width:100%;
+    display: flex;
+}
+/* navbar starts */
+nav{
+    display: flex;
+    padding-top: 138px;
+    padding-left:120px ;
+}
+.nav-list ul {
+    display: flex;
+    gap:70px;
+
+}
+.nav-list ul li{
+    list-style: none;
+    font-size: 20px;
+    border:1px solid white;
+    
+}
+.nav-list ul a{
+    text-decoration: none;
+    color:black;
+    transition: width  3s ease-in ;
+}
+.nav-list ul a:hover{
+    border-bottom:2px solid  green;
+}
+.nav-list .log{
+    font-size:20px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: linear 0.5s ;
+}
+.nav-list .log:hover{
+    background-color: green;
+    color: black;
+}
+
+/* section starts */
+section{
+    display: flex;
+    align-items: center;
+    margin:5px 50px;
+    gap: 100px;
+}
+.sec-text{
+
+height: 300px;
+width: 600px;
+/* border: 1px solid black; */
+padding: 20px;
+
+}
+.sec-text i{
+    font-size: 40px;
+    font-family: Boldonse;
+}
+
+.sec-text span p {
+   
+    font-weight: bold;
+    gap: 50px;
+}
+.sec-img{
+ height: 300px;
+width: 400px;
+/* border: 1px solid black; */
+}
+.sec-img img{
+    height: 350px;
+    width: 550px; 
+   
+}
+/* section ends */
+
+/* page 2 starts */ 
+.container2{
+    margin-top: 100px; 
+}
+.container2 h2 i{
+    font-family: Boldonse;
+    font-size: 40px;
+    padding-left: 450px;
+    text-decoration: underline;
+   
+}
+.container2 .custom-carousel-img {
+padding: 30px;   
+height: 650px;
+width: 100vw;      
+object-fit: cover;
+
+
+}
+
+
+/* page 3 starts */
+
+.container3 h2 i{
+    font-family: Boldonse;
+    font-size: 40px;
+    padding-left: 350px;
+    text-decoration: underline;
+}
+.container3 .btn{
+    font-size: 20px;
+    margin:20px 250px ;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container3 .btn:hover{
+    color: black;
+    background-color: green;
+}
+
